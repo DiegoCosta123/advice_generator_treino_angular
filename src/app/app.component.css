@@ -68,3 +68,39 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 625px) {
+    #squared_container {
+        max-width: 585px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #squared_container {
+        height: 415px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    #squared_container {
+        padding: 20px;
+        height: 315px;
+    }
+    
+    .title_container {
+        font-size: clamp(24px, 1px + 3px, 30px);
+    }
+}
+
+@media screen and (max-width: 374px) {
+
+
+    .paragraph_container {
+        margin-top: 40px;
+    }
+
+    .title_container {
+        font-size: clamp(20px, 1px + 3px, 30px);
+    }
+}
+
