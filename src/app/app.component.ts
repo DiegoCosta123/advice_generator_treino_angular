@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   textToShow: string = "It is easy to sit up and take notice, what's difficult is getting up and taking action.";
 
-  people: string[] = [ "Tornou-se chocantemente óbvio que a nossa tecnologia excedeu a nossa humanidade.",
-                    "Trocava toda a minha tecnologia por uma tarde com Sócrates.",
-                    "Muitas palavras não indicam necessariamente muita sabedoria." ];
+people: string[] = [    "Tornou-se chocantemente óbvio que a nossa tecnologia excedeu a nossa humanidade.",
+                        "Trocava toda a minha tecnologia por uma tarde com Sócrates.",
+                        "Muitas palavras não indicam necessariamente muita sabedoria." ];
 
   buttonClick() {
     this.Frase();
