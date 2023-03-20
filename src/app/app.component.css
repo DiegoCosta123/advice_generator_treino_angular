@@ -47,15 +47,19 @@
 }
 
 .circle_icon {
-    position: relative;
+    position: absolute;
+    max-width: 100%;
     width: 60px;
     height: 60px;
     background-color: hsl(150, 100%, 66%);
     border-radius: 50px;
-    margin: 0 auto;
-    margin-top: 37px;
     cursor: pointer;
     transition: 0.2s;
+    left: 0;
+    right: 0;
+    top: 365px;
+    bottom: 0;
+    margin: auto;
 }
 
 .circle_icon:hover {
@@ -83,6 +87,10 @@
     #squared_container {
         height: 415px;
     }
+
+    .circle_icon {
+        top: 405px;
+    }
 }
 
 @media screen and (max-width: 451px) {
@@ -93,6 +101,10 @@
     
     .title_container {
         font-size: clamp(24px, 1px + 3px, 30px);
+    }
+
+    .circle_icon {
+        top: 310px;
     }
 }
 
